@@ -168,7 +168,9 @@
   background-color: gainsboro;
   color: rgb(70, 44, 22);
 }
-
+#bookCount {
+  margin-left: 550px;
+}
 body {
   position: relative;
   margin: 0px;
@@ -180,6 +182,13 @@ body {
     color: aliceblue;
     border: none;
     background-color: brown;
+  }
+
+  #bookCount {
+    margin-left: 270px;
+    width: 700px;
+    font-size: 30px;
+    font-family: sans-serif;
   }
   .bookList {
     padding: 5px;

@@ -25,9 +25,18 @@ libraryContainer.appendChild(bookBtnContainer);
 const myboooks = document.createElement("div");
 libraryContainer.appendChild(myboooks);
 
+let bookCount = 0;
 //This funtion loops through the content in a library and display them
 function display() {
   myLibrary.forEach((library) => {
+    bookCount += 1;
+    const counts = document.getElementById("bookCount");
+    if (bookCount <= 1) {
+      counts.textContent = `You have added ${bookCount} Book to your library`;
+    } else {
+      counts.textContent = `You have added ${bookCount} Books to your library`;
+    }
+
     myboooks.classList.add("myboooks");
     const bookList = document.createElement("div");
     bookList.classList.add("bookList");
@@ -56,6 +65,13 @@ function display() {
     deleteBtn.textContent = "Delete";
     bookList.appendChild(deleteBtn);
     deleteBtn.addEventListener("click", () => {
+      bookCount--;
+      if (bookCount <= 1) {
+        counts.textContent = `You have added ${bookCount} Book to your library`;
+      } else {
+        counts.textContent = `You have added ${bookCount} Books to your library`;
+      }
+      console.log(bookCount);
       bookList.removeChild(Bookname);
       bookList.removeChild(Bookauthor);
       bookList.removeChild(Bookpage);
