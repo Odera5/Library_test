@@ -2,20 +2,29 @@
   width: 300px;
 }
 #headerContainer {
-  position: relative;
-  top: -34px;
+  position: sticky;
+  top: 0px;
   height: 100px;
-
+  display: flex;
   margin-top: 0px;
   background-color: rgb(93, 55, 28);
+}
+#img {
+  position: relative;
+  width: 50px;
+  bottom: -30px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 500px;
 }
 #header {
   color: aliceblue;
   font-size: 50px;
 
   position: relative;
-  bottom: -15px;
-  margin-left: 550px;
+
   font-family: sans-serif;
 }
 
@@ -226,18 +235,28 @@ body {
     background-color: gainsboro;
     color: rgb(70, 44, 22);
   }
+  #img {
+    position: relative;
+    width: 90px;
+    bottom: -60px;
+    height: 90px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 300px;
+  }
   #header {
     position: relative;
-    bottom: -30px;
+
     font-size: 100px;
-    margin-left: 270px;
+    top: -15px;
     font-family: sans-serif;
   }
   #headerContainer {
-    width: 1000px;
+    width: 1180px;
     height: 200px;
-    position: relative;
-    top: -70px;
+    position: sticky;
+    top: 0px;
   }
   #addbook {
     font-size: 50px;
