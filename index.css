@@ -175,7 +175,7 @@ body {
   background-color: rgb(221, 211, 160);
 }
 
-@media (max-width: 380px) {
+@media (max-width: 480px) {
   .cancel:hover {
     color: aliceblue;
     border: none;
