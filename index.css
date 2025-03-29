@@ -1,0 +1,265 @@
+.form {
+  width: 300px;
+}
+#headerContainer {
+  position: relative;
+  top: -34px;
+  height: 100px;
+
+  margin-top: 0px;
+  background-color: rgb(93, 55, 28);
+}
+#header {
+  color: aliceblue;
+  font-size: 50px;
+
+  position: relative;
+  bottom: -15px;
+  margin-left: 550px;
+  font-family: sans-serif;
+}
+
+.bookList {
+  padding: 5px;
+
+  font-family: sans-serif;
+  background-color: rgb(93, 55, 28);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px grey;
+  margin-left: 300px;
+}
+.myboooks {
+  margin-top: 10px;
+
+  width: 1000px;
+  border: none;
+  border-radius: 10px;
+
+  margin-bottom: 50px;
+  color: aliceblue;
+}
+
+.deleteBtn:hover {
+  background-color: brown;
+  color: aliceblue;
+}
+.deleteBtn {
+  margin-left: 15px;
+  border-radius: 10px;
+  padding: 5px;
+  border: none;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+}
+.Bookname {
+  margin-bottom: 0px;
+  margin-left: 5px;
+}
+.Bookauthor {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+}
+.Bookread {
+  margin-top: 0px;
+  margin-left: 5px;
+}
+.Bookpage {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+}
+
+.deleteBtnContainer {
+}
+.cancel {
+  position: relative;
+  top: -15px;
+  margin-top: 30px;
+  border: none;
+  padding: 2px 5px;
+  border-radius: 2px;
+}
+.cancel:hover {
+  color: aliceblue;
+  border: none;
+  background-color: brown;
+}
+.submitBtnn {
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  font-family: sans-serif;
+  box-shadow: 1px 1px 5px gray;
+  color: aliceblue;
+  background-color: rgb(93, 55, 28);
+}
+.submitContainer {
+  display: flex;
+  margin-left: 180px;
+  margin-top: 20px;
+}
+.label1 {
+  margin-right: 18px;
+  margin-left: 8px;
+  font-family: sans-serif;
+}
+
+.label4 {
+  margin-left: 8px;
+  margin-right: 19px;
+  font-family: sans-serif;
+}
+
+.label2 {
+  margin-left: 8px;
+  margin-right: 21px;
+  font-family: sans-serif;
+}
+
+.label3 {
+  margin-left: 8px;
+  margin-right: 26px;
+  font-family: sans-serif;
+}
+.input1 {
+  border: none;
+  border-radius: 5px;
+  margin-left: 29px;
+}
+.input2 {
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.input3 {
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.input4 {
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+#addbook {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  font-family: sans-serif;
+  color: gainsboro;
+  box-shadow: 1px 1px 5px grey;
+  background-color: rgb(70, 44, 22);
+  border-radius: 10px;
+}
+
+#addbook:hover {
+  background-color: gainsboro;
+  color: rgb(70, 44, 22);
+}
+
+#addbook:focus {
+  background-color: gainsboro;
+  color: rgb(70, 44, 22);
+}
+
+body {
+  position: relative;
+  margin: 0px;
+  background-color: rgb(221, 211, 160);
+}
+
+@media (max-width: 380px) {
+  .cancel:hover {
+    color: aliceblue;
+    border: none;
+    background-color: brown;
+  }
+  .bookList {
+    padding: 5px;
+    font-family: sans-serif;
+    background-color: rgb(93, 55, 28);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px grey;
+    margin-left: 50px;
+    width: 900px;
+    height: 350px;
+    font-size: 40px;
+  }
+  .label1,
+  .label2,
+  .label3,
+  .label4 {
+    font-size: 50px;
+  }
+  .input1,
+  .input2,
+  .input3,
+  .input4 {
+    width: 300px;
+    height: 50px;
+    font-size: 40px;
+    border-radius: 20px;
+  }
+  .cancel {
+    font-size: 40px;
+    width: 50px;
+    padding: 0px 5px;
+  }
+  #addbook:hover {
+    background-color: gainsboro;
+    color: rgb(70, 44, 22);
+  }
+  #header {
+    position: relative;
+    bottom: -30px;
+    font-size: 100px;
+    margin-left: 270px;
+    font-family: sans-serif;
+  }
+  #headerContainer {
+    width: 1000px;
+    height: 200px;
+    position: relative;
+    top: -70px;
+  }
+  #addbook {
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .submitBtnn {
+    font-size: 40px;
+  }
+  .deleteBtn {
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+
+  .form {
+    margin-top: 100px;
+    width: 300px;
+    margin-left: 20px;
+    animation: 2s translate-form alternate 1;
+  }
+
+  @keyframes translate-form {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(45px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+}
