@@ -186,7 +186,7 @@ body {
   background-color: rgb(221, 211, 160);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 340px) {
   .cancel:hover {
     color: aliceblue;
     border: none;
@@ -194,13 +194,13 @@ body {
   }
 
   #bookCount {
-    margin-left: 270px;
-    width: 700px;
-    font-size: 30px;
+    margin-left: 150px;
+    width: 900px;
+    font-size: 50px;
     font-family: sans-serif;
   }
   .bookList {
-    padding: 5px;
+    padding: 5px 5px 5px 5px;
     font-family: sans-serif;
     background-color: rgb(93, 55, 28);
     margin-bottom: 20px;
@@ -208,8 +208,9 @@ body {
     box-shadow: 1px 1px 5px grey;
     margin-left: 50px;
     width: 900px;
-    height: 350px;
-    font-size: 40px;
+    height: 400px;
+    font-size: 50px;
+    margin-top: 0px;
   }
   .label1,
   .label2,
@@ -231,7 +232,7 @@ body {
     width: 50px;
     padding: 0px 5px;
   }
-  #addbook:hover {
+  #addbk:hover {
     background-color: gainsboro;
     color: rgb(70, 44, 22);
   }
@@ -270,6 +271,9 @@ body {
   .deleteBtn {
     font-size: 40px;
     margin-bottom: 0px;
+    margin-top: 0px;
+    position: relative;
+    top: -20px;
   }
 
   .form {
