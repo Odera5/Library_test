@@ -186,11 +186,15 @@ body {
   background-color: rgb(221, 211, 160);
 }
 
-@media (max-width: 340px) {
+@media (max-width: 540px) {
   .cancel:hover {
     color: aliceblue;
     border: none;
     background-color: brown;
+  }
+
+  #container {
+    width: 200px;
   }
 
   #bookCount {
@@ -254,7 +258,7 @@ body {
     font-family: sans-serif;
   }
   #headerContainer {
-    width: 1180px;
+    width: 1100px;
     height: 200px;
     position: sticky;
     top: 0px;
@@ -263,7 +267,7 @@ body {
     font-size: 50px;
     margin-left: 20px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
   }
   .submitBtnn {
     font-size: 40px;
